@@ -1,0 +1,159 @@
+
+* {
+    box-sizing: border-box;
+
+}
+.logo {
+    width: 250px;
+}
+
+.nav {
+    background-color: #0d1524;
+}
+.nav  ul{
+    list-style: none;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 0px;
+    margin: 0px;
+}
+.nav ul li {
+    display: inline;
+    margin: 0px 20px;
+}
+.nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+.nav ul li a:hover {
+    color: red;
+}
+
+/* carousel  */
+.carousel {
+    background-image: url(./image/img-layout-2/slider_1.jpg);
+    height: 450px;
+    margin-top: 10px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center ;
+    background-clip: content-box;
+}
+
+
+/* intro */
+.intro-text {
+    font-size: 20px;
+    color: gray;
+    font-weight: bold;
+    line-height: 30px;
+    letter-spacing:2px;
+    text-indent: 40px;
+    text-align: justify;
+}
+
+.intro-product-left, .intro-product-right {
+    float: left;
+    width: 50%;
+}
+
+.intro-product-item {
+    float: left;
+    padding: 10px;
+}
+
+.item-1, .item-2 {
+    width: 50%;
+}
+
+.item-3, .item-5, .item-4 {
+    width: 100%;
+}
+.intro-product-item img {
+width: 100%;
+display: block;
+}
+
+.clear {
+    clear: both;
+}
+
+/* prodcut  */
+.product {
+    margin-top: 10px;
+}
+
+.product > h2 {
+    color: gray;
+    letter-spacing: 2px;
+    font-weight: 400;
+    text-align: center;
+}
+.product-item {
+float: left;
+width: 25%;
+padding: 5px;
+
+}
+
+.product-item img {
+    max-width: 100%;
+}
+
+.product-item button {
+    background-color: #ff0000;
+    border: 1px solid;
+    color: white;
+}
+.product-item p {
+    font-size: 16px;
+    color: gray;
+}
+.product-item h4 {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+/* banner */
+.banner {
+    height: 400px;
+    background-image: url(./image/img-layout-2/nature.jpg);
+    background-size: cover;
+    position: relative;
+}
+
+.content {
+    height: 300px ;
+    width: 300px;
+    background-color: red;
+    border-radius: 50%;
+    position: absolute;
+    top: 10%;
+    left: 15px;
+text-align: center;
+}
+
+/* service */
+.service {
+    width: 80%;
+    margin: 20px auto;
+}
+
+.service-item {
+    width: 33.3333%;
+    float: left;
+    text-align: center;
+    padding: 4px;
+}
+
+/* 
+footer */
+.footer {
+    background-color: #0d1524;
+    text-align: center;
+    color: white;
+}
+.footer h4, .footer p  {
+    margin: 0px ;
+    line-height: 20px;
+}
